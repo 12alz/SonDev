@@ -47,9 +47,9 @@ window.onscroll = () => {
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 } 
-// // DARK / LIGHT MODE TOGGLE
-// let themeToggle = document.querySelector('#theme-toggle');
-// let body = document.body;
+// DARK / LIGHT MODE TOGGLE
+let themeToggle = document.querySelector('#theme-toggle');
+let body = document.body;
 
 // Load saved theme from localStorage
 if(localStorage.getItem('theme') === 'light') {
